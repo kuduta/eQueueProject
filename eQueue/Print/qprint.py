@@ -5,8 +5,9 @@
 # Created by: PyQt5 UI code generator 5.9.2
 #
 # WARNING! All changes made in this file will be lost!
-
+import os
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -162,4 +163,6 @@ class Ui_MainWindow(object):
         self.pushButton5.setText(_translate("MainWindow", "     5. ติดต่องานสำรวจ / เร่งรัดฯ"))
         self.pushButton5_2.setText(_translate("MainWindow", "     6. อื่นๆ                         "))
 
-#import background_rc
+import background_rc
+
+##############
